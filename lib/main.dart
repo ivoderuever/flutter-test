@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitUp,
     ]);
     return MaterialApp(
-      title: 'Startup Name Generator',
+      title: 'Namerr',
       theme: ThemeData(
         // Add the 3 lines from here...
         primaryColor: Colors.black,
@@ -108,7 +108,7 @@ class RandomWordsState extends State<RandomWords> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Name generator',
+          'Namerr',
           style: TextStyle(color: Colors.white.withOpacity(0.8)),
         ),
         actions: <Widget>[
